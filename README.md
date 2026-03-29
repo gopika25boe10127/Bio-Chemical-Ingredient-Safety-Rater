@@ -43,9 +43,9 @@ Formatted Console Output: Utilizes tabulating techniques to present biological r
 # Environment Setup & Execution:
 
 Execution Steps:
-Load the Script: Copy the Python code into a Google Colab cell.
+Python code: Code is typed in VS code.
 
-Initialize Database: Run the code; it will automatically create toxins.csv in the session storage.
+Initialize Database: Run the code, it will automatically create toxins.csv in the session storage.
 
 Analyze Product:
 Find an ingredient list (e.g., from a face wash or shampoo).
