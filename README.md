@@ -48,8 +48,6 @@ This project provides a functional **Command-Line Interface (CLI)** tool designe
     *   Press **Enter** to receive the safety report, risk breakdown, and the **1-10 Hazard Rating**.
 
 ---
-*Developed as part of the Digital Literacy Ambassador Project | VIT Bhopal University*
-Users interested in identifying chemicals that contribute to issues like coral bleaching (e.g., Oxybenzone).
 
 # High-Level Features:
 
