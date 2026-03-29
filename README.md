@@ -1,39 +1,52 @@
-BIO-CHEMICAL 
-INGREDIENT SAFETY RATER
+# BIO-CHEMICAL INGREDIENT SAFETY RATER
 
-Problem Statement:
+# Problem Statement:
+
     Many commercial personal care products contain complex chemical ingredients that are difficult for the average consumer to decode. Several of these substances are linked to biological risks, such as endocrine disruption, skin toxicity, and environmental harm. There is a lack of accessible, computational tools that can instantly parse these ingredient lists and provide a simplified, evidence-based safety score. This project solves this by automating the cross-referencing of chemical data with known toxicological risks.
-Scope of the Project:
+    
+# Scope of the Project:
+
 The scope of this project is to provide a functional command-line interface (CLI) tool that:
+
 Data Management:
 Creates and maintains a local database (toxins.csv) of high-risk cosmetic ingredients.
+
 String Analysis: 
 Processes raw text input from product labels and breaks them into searchable tokens.
+
 Quantitative Evaluation:
 Applies a mathematical algorithm to calculate a "Hazard Rating" based on the presence and severity of detected toxins.
+
 Educational Reporting: 
 Outputs a formatted table detailing the specific biological risks associated with flagged ingredients.
 
 
-Target Users:
+# Target Users:
+
 Bioengineering Students:
 To understand the intersection of toxicology and computational logic.
+
 Health-Conscious Consumers: 
 Individuals looking for a quick way to screen products for "red-flag" ingredients.
+
 Environmental Advocates: 
 Users interested in identifying chemicals that contribute to issues like coral bleaching (e.g., Oxybenzone).
 
-High-Level Features:
+# High-Level Features:
+
 Self-Contained Database: Automatically generates a CSV file, demonstrating file I/O operations and data persistence.
 Fuzzy Ingredient Matching: The algorithm can detect a toxin even if it is part of a compound name (e.g., finding "paraben" in "methylparaben").
 Dynamic Safety Rating (1-10): A logic-based scoring system that weights the severity of different chemicals to provide a final product grade.
 Risk Categorization: Uses conditional logic to sort products into "Clean," "Caution," or "Hazardous" status.
 Formatted Console Output: Utilizes tabulating techniques to present biological risks in a clear, readable table format.
 
-Environment Setup & Execution:
+# Environment Setup & Execution:
+
 Execution Steps:
 Load the Script: Copy the Python code into a Google Colab cell.
+
 Initialize Database: Run the code; it will automatically create toxins.csv in the session storage.
+
 Analyze Product:
 Find an ingredient list (e.g., from a face wash or shampoo).
 Paste the list into the input prompt.
