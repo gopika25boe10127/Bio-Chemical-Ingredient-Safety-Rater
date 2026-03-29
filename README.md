@@ -2,7 +2,7 @@
 
 # Problem Statement:
 
-    Many commercial personal care products contain complex chemical ingredients that are difficult for the average consumer to decode. Several of these substances are linked to biological risks, such as endocrine disruption, skin toxicity, and environmental harm. There is a lack of accessible, computational tools that can instantly parse these ingredient lists and provide a simplified, evidence-based safety score. This project solves this by automating the cross-referencing of chemical data with known toxicological risks.
+Many commercial personal care products contain complex chemical ingredients that are difficult for the average consumer to decode. Several of these substances are linked to biological risks, such as endocrine disruption, skin toxicity, and environmental harm. There is a lack of accessible, computational tools that can instantly parse these ingredient lists and provide a simplified, evidence-based safety score. This project solves this by automating the cross-referencing of chemical data with known toxicological risks.
     
 # Scope of the Project:
 
