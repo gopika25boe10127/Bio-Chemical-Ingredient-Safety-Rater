@@ -34,7 +34,7 @@ This project provides a functional **Command-Line Interface (CLI)** tool designe
 
 ---
 
-## ⚙️ Environment Setup & Execution
+##  Environment Setup & Execution
 
 ### **System Requirements**
 *   Python 3.x
